@@ -1,0 +1,88 @@
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    position: relative;
+}
+
+#navebar ul li a{
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+
+}
+
+/* Home Section */
+#home{
+    height: 310px;
+    padding: 3px 76px;
+      
+}
+
+#home::before{
+    height: 450px;
+}
+
+#home p{
+    font-size: 15px;
+}
+
+.btn{
+    margin: 15px 39px;
+    padding: 5px;
+    font-size: 11px;
+    width: 68px;
+}
+
+
+
+/* Accessories section */
+#accessories{
+       flex-direction: column;
+}
+
+#accessories .box{
+    margin: 13px 20px;
+    padding: 23px;
+}
+
+#accessories .box img{
+    height: 100px; 
+}
+
+#accessories .box p{
+    font-size: 13px;
+}
+
+
+/* Client section */
+.client-items img{
+    height: 47px;
+    padding: 23px 2px;
+}
+
+
+/* Contact us section */
+
+#contact-box form{
+    width: 70%;
+
+    
+}
+
+#contact-box label{
+    font-size: 1.2rem;
+}
+
+
+/* Utility classes */
+.primary-h{
+    font-size: 30px;
+}
+
+.primary-h-center{
+    font-size: 1.6rem;
+}
+
+.secondary-h-center{
+    font-size: 1.2rem;
+}
